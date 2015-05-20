@@ -1,0 +1,33 @@
+{
+  "name": "Quiz",
+  "version": "1.0.0",
+  "description": "A generator for Yeoman when you need to quickly play web application with an idea.",
+  "dependencies": {
+    "normalize-css": ">=2.1.3",
+    "jquery": "~1.9.1",
+    "typed.js": "*"
+  },
+  "authors": [
+    "emalherbi"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "exportsOverride": {
+    "normalize-css": {
+      "css": "**/normalize.css"
+    },
+    "jquery": {
+      "js": "**/jquery.js"
+    },
+    "typed.js": {
+      "js": "**/typed.js"
+    }
+  }
+}
